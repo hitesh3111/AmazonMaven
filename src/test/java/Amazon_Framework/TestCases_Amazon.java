@@ -26,7 +26,7 @@ public class TestCases_Amazon extends Base {
 		browserInvoke();
 		LoginPage_amazon.openLoginPage();
 		LoginPage_amazon.add_Product2();
-        driver.quit();
+                driver.quit();
 	}
 	
 	public static void main(String[] args) throws Exception {
